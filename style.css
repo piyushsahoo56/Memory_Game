@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background-image: linear-gradient( 179deg,  rgba(0,0,0,1) 9.2%, rgba(127,16,16,1) 103.9% );
+}
+  
+#level-title {
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 3rem;
+    margin-top: 80px;
+    margin-bottom: 55px;
+    color: cyan;
+
+}
+  
+.container {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+  
+.btn {
+    cursor: pointer;
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 8px solid rgb(129, 129, 129);
+    border-radius: 40px;
+}
+  
+.game-over {
+    opacity: 0.2;
+}
+  
+.red {
+    background-color: red;
+}
+  
+.green {
+    background-color: green;
+}
+  
+.blue {
+    background-color: blue;
+}
+  
+.yellow {
+    background-color: yellow;
+}
+  
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+  
